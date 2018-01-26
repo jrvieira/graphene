@@ -137,9 +137,9 @@ Prints similar to:
 
 ## Flags
 ```shell
--amp    stretch the graph so that the max value occupies the full width of the current terminal. by default, bars stay proportional to the total number of samples.
--1      limit processor and memory usage to the node standard. currently, 1 core and 512mb on 32-bit systems or 1gb on 64-bit systems.
--top    limit output to x top values, where x is the number of lines available at the current terminal.
+-amp    Stretch the graph so that the max value occupies the full width of the current terminal. By default, bars stay proportional to the total number of samples.
+-1      Limit processor and memory usage to the node standard. Currently, 1 core and 512mb on 32-bit systems or 1gb on 64-bit systems.
+-top    Limit output to x top values, where x is the number of lines available at the current terminal.
 ```
 
 ## More examples

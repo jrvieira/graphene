@@ -141,5 +141,7 @@ We get something like:
 -top    limit output to x top values, where x is the number of lines available at the current terminal.
 ```
 
+Check the examples folder for a positive-skew distribution of a collector's probability in completing a set at random and a crude brute force attempt at the 25 Horses Problem.
+
 
 ###### Licensed under MIT

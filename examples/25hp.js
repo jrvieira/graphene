@@ -1,7 +1,7 @@
 /*
 
-This is the famous 25 Horses Problem: Given 25 horses and 5 race tracks (no timer), how many races do you have to run to select the top 3 horses?
-You can modulate the variables in the set object to test different variants of the problem.
+This is the famous 25 Horses Puzzle: Given 25 horses and 5 race tracks (no timer), how many races do you have to run to select the top 3 horses?
+You can modulate the variables in the set object to test different variants of the simulation.
 
 */
 

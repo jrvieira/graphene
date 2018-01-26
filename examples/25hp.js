@@ -189,6 +189,4 @@ let pick = {
 
 // RUN
 
-if (process.argv[2] && (Number(process.argv[2]) < 1 || isNaN(Number(process.argv[2])))) throw new Error('invalid argument', process.argv[2])
-
 graph(cycle, set.samples || 100, process.argv.includes('-top') ? process.stdout.rows - 5 : undefined)

@@ -1,6 +1,7 @@
 /*
 
-How many random packs of X items we have to buy to complete a collection of Y
+How many random packs of X items we have to buy to complete a collection of Y.
+(Positive-skew distribution.)
 
 */
 

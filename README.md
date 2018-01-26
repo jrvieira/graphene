@@ -19,8 +19,9 @@ function boxmuller() {
 	return Math.floor(10 * Math.sqrt( - 2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v ))
 }
 
-// By using the Box-Muller transform, a normal distribution is expected
 graphene(boxmuller, Number(process.argv[2]))
+
+// By using the Box-Muller transform, a normal distribution is expected
 
 ```
 

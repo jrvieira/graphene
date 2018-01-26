@@ -11,7 +11,7 @@ cli graphs
 const graphene = require('graphene')
 
 // Function that returns a pseudo-random number.
-function boxmuller() {
+function boxmuller () {
 	
 	let u = Math.random()
 	let v = Math.random()

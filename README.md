@@ -145,7 +145,7 @@ Prints similar to:
 ## More examples
 
 
-Check the examples folder for a positive-skew distribution of a collector's probability in completing a set at random and a crude brute force attempt at the 25 Horses Problem:
+Check the examples folder for a positive-skew distribution of a collector's probability in completing a set at random and a crude brute force attempt at the 25 Horses Puzzle:
 
 ```shell
 node examples/collect -amp

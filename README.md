@@ -29,7 +29,7 @@ Running:
 node sample 1000000 -amp
 ```
 
-We get something like:
+Prints something like:
 ```
 -50 |                                                                                                   2
 -49 |                                                                                                   1

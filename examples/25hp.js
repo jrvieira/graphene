@@ -189,4 +189,4 @@ let pick = {
 
 // RUN
 
-graph(cycle, set.samples || 100, process.argv.includes('-top') ? process.stdout.rows - 5 : undefined)
+graph(cycle, set.samples || 100)

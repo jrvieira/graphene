@@ -1,11 +1,18 @@
+/*
+
+This is the famous 25 Horses Problem".
+You can modulate the variables in the set object to test different variants of the problem.
+
+*/
+
 const graph = require('../lib/graphene')
 
 // SETUP
 
 const set = {
-	total: 25,
-	racers: 5,
-	top: 3,
+	total: 25, // total number of horses
+	racers: 5, // max number of horses per race
+	top: 3, // how many horses to qualify
 	samples: Number(process.argv[2]) || 0,
 	pick: 'random'
 }

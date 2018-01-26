@@ -1,12 +1,25 @@
+/*
+
+How many random packs of X items we have to buy to complete a collection of Y
+
+*/
+
+let X = 24
+let Y = 2
+
 const graph = require('../lib/graphene')
 
 let times = 0
 let collection = new Set()
 
-function buy (max = Number(process.argv[2]) || 100) {
+function buy (max = X) {
   	max = Math.floor(max)
 
-	collection.add(Math.floor(Math.random() * max) + 1)
+  	let pack = Y
+
+  	while (pack --) {
+		collection.add(Math.floor(Math.random() * max) + 1)  		
+  	}
 	
 	times ++
 	if (collection.size >= max) {
@@ -19,4 +32,4 @@ function buy (max = Number(process.argv[2]) || 100) {
 	}
 }
 
-graph(buy, Number(process.argv[3]) || 1000000)
+graph(buy, Number(process.argv[2]) || 1000000)

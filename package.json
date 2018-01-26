@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/graphene.js",
+  "files": [
+    "lib/graphene.js",
+    "lib/single.js",
+    "lib/cluster.js"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

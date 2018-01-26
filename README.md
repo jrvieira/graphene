@@ -16,7 +16,7 @@ function boxmuller() {
 	let u = Math.random()
 	let v = Math.random()
 
-	return Math.floor(10 * Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v ))
+	return Math.floor(10 * Math.sqrt( - 2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v ))
 }
 
 // By using the Box-Muller transform, a normal distribution is expected

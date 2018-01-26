@@ -137,7 +137,7 @@ We get something like:
 ## Flags
 ```shell
 -amp    stretch the graph so that the max value occupies the full width of the current terminal. by default, bars stay proportional to the total number of samples.
--1      limit process to the node standard, currently 1 core @ 512mb on 32-bit systems or 1gb on 64-bit systems.
+-1      limit processor and memory usage to the node standard. currently, 1 core and 512mb on 32-bit systems or 1gb on 64-bit systems.
 -top    limit output to x top values, where x is the number of lines available at the current terminal.
 ```
 

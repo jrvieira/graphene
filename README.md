@@ -7,6 +7,7 @@ cli graphs
 
 ```javascript
 // sample.js:
+
 const graphene = require('graphene')
 
 // Function that returns a pseudo-random number.

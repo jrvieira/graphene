@@ -144,5 +144,13 @@ Prints something like:
 
 Check the examples folder for a positive-skew distribution of a collector's probability in completing a set at random and a crude brute force attempt at the 25 Horses Problem.
 
+```shell
+node examples/collect -amp
+```
+
+```shell
+node examples/25hp
+```
+
 
 ###### Licensed under MIT

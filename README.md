@@ -5,7 +5,8 @@ cli graphs
 
 **graphene** produces a cli graph based on a collection of samples of a function that returns a number
 
-sample.js
+
+sample.js:
 ```javascript
 
 const graphene = require('graphene')

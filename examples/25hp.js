@@ -1,6 +1,6 @@
 /*
 
-This is the famous 25 Horses Problem: Given 25 horses and 5 race tracks (no timer), how many races do you have to run to select the top 5 horses?
+This is the famous 25 Horses Problem: Given 25 horses and 5 race tracks (no timer), how many races do you have to run to select the top 3 horses?
 You can modulate the variables in the set object to test different variants of the problem.
 
 */
@@ -12,7 +12,7 @@ const graph = require('../lib/graphene')
 const set = {
 	total: 25, // total number of horses
 	racers: 5, // max number of horses per race
-	top: 5, // how many horses to qualify
+	top: 3, // how many horses to qualify
 	samples: Number(process.argv[2]) || 0,
 	pick: 'random'
 }

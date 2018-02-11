@@ -3,7 +3,7 @@ cli graphs
 
 ## Example
 
-**graphene** produces a cli graph based on a collection of samples of a function that returns a number
+**graphene** produces a cli graph based on a collection of samples from a function that returns a number
 
 ```javascript
 /* sample.js */

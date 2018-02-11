@@ -139,7 +139,7 @@ Prints similar to:
 
 <dl>
 	<dt>-amp</dt>
-	<dd>Stretch the graph so that the max value occupies the full width of the current terminal. By default, bars stay proportional to the total number of samples.</dd>
+	<dd>Stretch the graph so that the max value occupies the full width of the current terminal. By default, bars would stay proportional to the total number of samples.</dd>
 	<dt>-1</dt>
 	<dd>Limit processor and memory usage to the node standard. Currently, 1 core and 512mb on 32-bit systems or 1gb on 64-bit systems.</dd>
 	<dt>-top</dt>

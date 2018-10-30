@@ -1,7 +1,7 @@
 {
-  "name": "graphene",
+  "name": "@jrvieira/graphene",
   "version": "1.0.0",
-  "description": "",
+  "description": "cli graphs",
   "main": "lib/graphene.js",
   "files": [
     "lib/graphene.js",
@@ -9,11 +9,22 @@
     "lib/cluster.js"
   ],
   "directories": {
+    "example": "examples",
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrvieira/graphene.git"
+  },
+  "author": "jrvieira",
+  "license": "MIT",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/jrvieira/graphene/issues"
+  },
+  "homepage": "https://github.com/jrvieira/graphene#readme",
+  "devDependencies": {}
 }

@@ -1,11 +1,13 @@
 # graphene
 tui graphs
 
-## Install
 
-``shell
+## Installation
+
+```shell
 npm i @jrvieira/graphene
-``
+```
+
 
 ## Usage
 
@@ -141,6 +143,7 @@ Prints similar to:
  50 |                                                                                                   1
 ```
 
+
 ## Flags
 
 <dl>
@@ -152,8 +155,8 @@ Prints similar to:
 	<dd>Limit output to x top values, where x is the number of lines available at the current terminal.</dd>
 </dl>
 
-## More examples
 
+## More examples
 
 Check the examples folder for a positive-skew distribution of a collector's probability of completing a set at random and a crude brute force attempt at the 25 Horses Puzzle:
 

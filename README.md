@@ -1,14 +1,20 @@
 # graphene
-cli graphs
+tui graphs
 
-## Example
+## Install
 
-**graphene** produces a cli graph based on a collection of samples from a function that returns a number
+``shell
+npm i @jrvieira/graphene
+``
+
+## Usage
+
+**graphene** produces a tui graph based on a collection of samples from a function that returns a number
 
 ```javascript
 /* sample.js */
 
-const graphene = require('graphene')
+const graphene = require('@jrvieira/graphene')
 
 // Function that returns a pseudo-random number
 function boxmuller () {

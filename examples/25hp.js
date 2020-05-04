@@ -26,7 +26,7 @@ let all = {
 }
 
 let make = {}
- 
+
 // HORSE
 
 all.horses = new Set()

@@ -138,8 +138,7 @@ Prints similar to:
  45                                                                                           
  46 |                                                                                             1
  47                                                                                           
- 48 |                                                                                             |                                                                                         
-```
+ 48 |                                                                                             1                                                                 ```
 
 
 ## Flags

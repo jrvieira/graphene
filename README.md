@@ -11,7 +11,7 @@ npm i @jrvieira/graphene
 
 ## Usage
 
-**graphene** produces a tui graph based on a collection of samples from a function that returns a number
+**graphene** produces a cli graph based on a collection of samples from a function that returns a number
 
 ```javascript
 /* sample.js */
@@ -24,7 +24,7 @@ function boxmuller () {
 	let u = Math.random()
 	let v = Math.random()
 
-	return Math.floor(10 * Math.sqrt(- 2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v))
+	return Math.floor(10 * Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v))
 }
 
 graphene(boxmuller, Number(process.argv[2]))

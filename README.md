@@ -1,5 +1,5 @@
 # graphene
-tui graphs
+cli graphs
 
 
 ## Installation

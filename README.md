@@ -146,13 +146,13 @@ Prints similar to:
 
 ## Arguments
 
-graphene(f[, s])
+graphene(f, s = 100)
 
 <dl>
 	<dt>f : Function</dt>
 	<dd>Function to run for each sample.</dd>
 	<dt>s : Number</dt>
-	<dd>Number of samples to take. Defaults to 100</dd>
+	<dd>Number of samples to take. Defaults to 100.</dd>
 </dl>
 
 

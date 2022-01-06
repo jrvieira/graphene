@@ -154,7 +154,7 @@ graphene(f, s, r)
 	<dt>s : Number (optional)</dt>
 	<dd>Number of samples to take. Defaults to 100.</dd>
 	<dt>r : Number (optional)</dt>
-	<dd>Output line limit. Overrides -top flag.</dd>
+	<dd>Output line limit.</dd>
 
 </dl>
 

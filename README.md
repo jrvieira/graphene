@@ -18,18 +18,20 @@ npm i @jrvieira/graphene
 
 const graphene = require('@jrvieira/graphene')
 
-// Function that returns a pseudo-random number
+// grab command line argument as the number of samples
+let n = Number(process.argv[2])
+
+// return a pseudo-random number
 function boxmuller () {
 	
-	let u = Math.random()
-	let v = Math.random()
+    let u = Math.random()
+    let v = Math.random()
 
-	return Math.floor(10 * Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v))
+    return Math.floor(10 * Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v))
 }
 
-graphene(boxmuller, Number(process.argv[2]))
-
-// By using the Box-Muller transform, a normal distribution is expected
+// using the Box-Muller transform, a normal distribution is expected
+graphene(boxmuller, n)
 
 ```
 

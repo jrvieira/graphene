@@ -144,7 +144,19 @@ Prints similar to:
  ```
 
 
-## Flags
+## Arguments
+
+graphene(f[, s])
+
+<dl>
+	<dt>f : Function</dt>
+	<dd>Function to run for each sample.</dd>
+	<dt>s : Number</dt>
+	<dd>Number of samples to take. Defaults to 100</dd>
+</dl>
+
+
+## Flags (cli)
 
 <dl>
 	<dt>-amp</dt>

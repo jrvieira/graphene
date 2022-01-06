@@ -154,7 +154,7 @@ graphene(f, s, r)
 	<dt>s : Number (optional)</dt>
 	<dd>Number of samples to take. Defaults to 100.</dd>
 	<dt>r : Number (optional)</dt>
-	<dd>Maximum number of rows to display. Overrides the -top flag, if provided. Defaults to Infinity</dd>
+	<dd>Maximum number of rows to display. Overrides the -top flag, if provided. Defaults to Infinity.</dd>
 
 </dl>
 

@@ -19,7 +19,7 @@ npm i @jrvieira/graphene
 const graphene = require('@jrvieira/graphene')
 
 // grab command line argument as the number of samples
-let n = Number(process.argv[2])
+let n = Number(process.argv[2]) || undefined
 
 // return a pseudo-random number
 function boxmuller () {

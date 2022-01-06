@@ -146,13 +146,16 @@ Prints similar to:
 
 ## Arguments
 
-graphene(f, s = 100)
+graphene(f, s, r)
 
 <dl>
 	<dt>f : Function</dt>
 	<dd>Function to run for each sample.</dd>
-	<dt>s : Number</dt>
+	<dt>s : Number (optional)</dt>
 	<dd>Number of samples to take. Defaults to 100.</dd>
+	<dt>r : Number (optional)</dt>
+	<dd>Maximum number of rows to display. Overrides the -top flag, if provided. Defaults to Infinity</dd>
+
 </dl>
 
 
